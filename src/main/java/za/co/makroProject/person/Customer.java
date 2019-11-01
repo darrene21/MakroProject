@@ -1,6 +1,6 @@
 class Customer extends Person{
 
-card;
+card();
 
 buyProduct();
 

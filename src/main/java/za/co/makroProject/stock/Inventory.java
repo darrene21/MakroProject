@@ -1,14 +1,12 @@
-class Inventory{
+package za.co.makroProject.stock;
+import java.util.Scanner;
+public class Inventory extends Product{
 
-name;
-address;
-phoneNumber;
-email;
 
-checkStock();
+public String checkStock();
 
-giversOrder();
+public String giversOrder();
 
-checkOrder();
+public void checkOrder();
 
 }
