@@ -1,6 +1,6 @@
 class Manager extends Person{
 
-cancalProduct();
+cancelProduct();
 
 scanProduct();
 
