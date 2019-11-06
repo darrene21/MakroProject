@@ -1,14 +1,14 @@
-class Inventory{
+public class Inventory{
 
-name;
-address;
-phoneNumber;
-email;
+private String name;
+private String address;
+private long phoneNumber;
+private String email;
 
-checkStock();
+public void checkStock();
 
-giversOrder();
+//giversOrder();
 
-checkOrder();
+//checkOrder();
 
 }

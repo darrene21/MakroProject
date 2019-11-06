@@ -1,4 +1,5 @@
-class Product{
+package za.co.makroproject.stock;
+public class Product{
 
 productName;
 price;
