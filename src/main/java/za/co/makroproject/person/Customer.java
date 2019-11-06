@@ -1,28 +1,52 @@
+package za.co.makroproject.person.Customer;
+
+import za.co.makroproject.person.Person;
+import za.co.makroproject.sales.Payment;
+import za.co.makroproject.sales.Cart;
+import za.co.makroproject.stock.Product;
+
+import java.util.Scanner;
 public class Customer extends Person{
 
-public void purchase(){
-  //purchase(Product[] product);
-Product[] product = new Product[10];
-   
-      product[0] = "Rice";
-      product[1] = "Bread";
-      product[2] = "Beans";
-      product[3] = "Meat";
-      product[4] = "Pinut";
-      product[5] = "Tv";
-      product[6] = "Suger";
-      product[7] = "Salt";
-      product[8] = "Malk";
-      product[9] = "Soap";
+            private String custcardNo;
+            private String accNo;
+            private int cardNo;
 
-for(int i = 0;i < product.length;i++){
+            Scanner sc = new Scanner(System.in);
 
-System.out.println(product[3]);
+           public void setCustcardNo(String custcardNo){
+             this.custcardNo = custcardNo;
+           }
+            
+           public String getCustcardNo(){
+            return custcardNo;
+           }
 
-}
+           public void setAccNo(String accNo){
+             this.accNo = accNo;
+           }
 
-}
-}
+           public String getAccNo(){
+             return accNo;
+           }
+
+           public void setCardNo(int cardNo){
+             this.cardNo = cardNo;
+           }
+
+           public int getCardNo(){
+            return cardNo;
+           }           
+
+           public void makroposCardBonus(payment payment){
+           
+           
+           }
+           
+
+
+
+
 
 
 
