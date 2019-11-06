@@ -1,6 +1,8 @@
-package za.co.makroproject.person.Employee;
-//import za
+package za.co.makroproject.person;
+import  za.co.makroproject.person.Employee;
+import  za.co.makroproject.stock.Product;
 import java.util.Scanner;
+
 public class Employee extends Person{
 
 private String position;
@@ -14,10 +16,10 @@ public void setPosition(String position){
 public String getPosition(){
  return this.position;
 }
-public void setEmployeeNumber(String employeeNumber){
+public void setEmployeeNumber(long employeeNumber){
  this.employeeNumber = employeeNumber;
 }
-public String getEmployeeNumber(){
+public long getEmployeeNumber(){
  return this.employeeNumber;
 }
 public void setUsername(String username){
@@ -27,7 +29,7 @@ public String getUsername(){
  return this.username;
 }
 public void setPasswold(String password){
- this.passwoid = password;
+ this.password = password;
 }
 public String getPassword(){
  return this.password;
@@ -45,7 +47,7 @@ super(firstName,lastName,dateOfBirth,emailAddress,gender,phoneNumber,address,idN
 
 Scanner sc = new Scanner(System.in);
 Employee e = new Employee();
-Employeee em = new Employee();
+Product p = new Product();
 
 
 public void login(){
@@ -55,32 +57,20 @@ System.out.println("Enter username");
 System.out.println("Enter password");
    password = sc.nextLine();
 
-Employee empolyees = new Empolyee[12];
+String[] employee = new String[12];
 
-for(int i = 0;i <employee.length;i++){
-if(employees[0].username.equals(username)$$ employees[0].password.equals(password){
-
+for(int i = 0;i < employee.length;i++){
+//if(employees[0].username.equals(username)$$ employees[0].password.equals(password){
+if(username == username){
+System.out.println("enter password");
+}
+}
 
 //System.out.println("
 
-System.out.println("successfully");
+System.out.println("Successfully");
 }
-}
-}
-public void issuedCard(){
-System.out.println("Enter card");
-  String card = sc.nextLine();
-System.out.println("Enter pin");
-  String pin = sc.nextLine();
-System.out.println("Successfull");
-
-}
-public void scanProduct(){
-System.out.println("Enter barCode");
-System.out.println("
-System.out.println("");
 
 
 }
 
-}

@@ -67,9 +67,20 @@ System.out.println("Enter cash");
 if(cash == price){
 System.out.println("recept");
 }else if(cash != price){
-System.out.println("remove item");
+System.out.println("void item");
+System.out.println("give recept");
 
 }
+}
+
+public void card(){
+
+System.out.println("Enter card");
+ String card = sc.nextLine();
+System.out.println("Enter pin");
+ String pin = sc.nextLine();
+System.out.println("print recept");
+ 
 
 }
 }
